@@ -1,0 +1,75 @@
+*{
+    margin:0px;
+    overflow:hidden;
+    text-decoration: none;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Space Mono', monospace;
+}
+.card__header{
+    width:100%;
+}
+.card{
+    display:flex;
+    flex-direction:column;
+}
+.card__contacts{
+    height:50px;
+    background-color:rgb(22, 24, 26);
+    display:flex;
+    justify-content:end;
+    align-items: center;
+}
+.card__contacts a span{
+    color:white;
+}
+.card__section{
+    height:90px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.img__logo{
+    width: 220px;
+}
+.card__icons{
+    width:300px;
+}
+.title__me{
+    margin-right:35px;
+    color:rgb(0, 0, 0) ;
+    width:350px;
+}
+.home__main{
+    height:100vh;
+    background: url('/assets/img/background.jpg') no-repeat center center fixed; 
+    background-size: cover;
+    display:flex;
+    justify-content:center;
+}
+.home__main-section{
+    margin-top: 15%;
+}
+.home__main-btn{
+    margin-top:10%;
+    margin-left: 35%;
+}
+.home__main-title{
+    color:rgb(255, 255, 255) ;
+    width:auto;
+    text-align:center;
+    font-size: 40px;
+}
+.home__main-btn{
+    background-color: rgb(22, 24, 26);
+    border:none;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    color: white;
+}
+
+.home__main-btn:hover {
+    background-color: #ffffff;
+    color:rgb(0, 0, 0);
+}
